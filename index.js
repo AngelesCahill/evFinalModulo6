@@ -4,7 +4,7 @@ const fs = require("fs/promises");
 
 const PORT = 3000;
 
-// Mostrar todo: http://localhost:3000/
+// Mostrar todo: http://localhost:3000
 app.get("/", async (req, res) => {
     try {
         const data = JSON.parse(
